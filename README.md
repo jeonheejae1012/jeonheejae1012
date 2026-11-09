@@ -4,6 +4,13 @@
 
 <br />
 
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=FF6FAE&center=true&vCenter=true&width=760&lines=Crafting+worlds+through+code;Building+with+Unity+and+Unreal+Engine;Turning+imagination+into+interactive+experiences"
+  alt="Animated introduction typing text"
+/>
+
+<br />
+
 ### 코드로 또 하나의 세계를 만드려는 창작자
 
 상상한 장면과 아이디어를 코드로 구현하며,  

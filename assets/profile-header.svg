@@ -22,8 +22,15 @@
   </defs>
 
   <rect width="1200" height="280" rx="28" fill="url(#background)"/>
-  <circle cx="880" cy="70" r="180" fill="url(#glow)" filter="url(#softGlow)"/>
-  <circle cx="250" cy="260" r="150" fill="#925bd0" opacity="0.09" filter="url(#softGlow)"/>
+  <circle cx="880" cy="70" r="180" fill="url(#glow)" filter="url(#softGlow)">
+    <animate attributeName="cx" values="820;940;820" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="55;95;55" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="260" r="150" fill="#925bd0" opacity="0.09" filter="url(#softGlow)">
+    <animate attributeName="cx" values="210;310;210" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.05;0.16;0.05" dur="6s" repeatCount="indefinite"/>
+  </circle>
 
   <g opacity="0.38" fill="none" stroke="#ff8fbd">
     <path d="M70 58h110M1020 215h110"/>
@@ -31,8 +38,40 @@
     <circle cx="1130" cy="215" r="5" fill="#ff8fbd" stroke="none"/>
   </g>
 
-  <text x="600" y="112" text-anchor="middle" fill="#f8f5fb" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="2">HEEJAE'S GITHUB</text>
-  <rect x="391" y="132" width="418" height="4" rx="2" fill="url(#accent)"/>
-  <text x="600" y="176" text-anchor="middle" fill="#ff9bc6" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">코드로 또 하나의 세계를 만드려는 창작자</text>
-  <text x="600" y="220" text-anchor="middle" fill="#aab0c0" font-family="Consolas, monospace" font-size="17" letter-spacing="1">C++  •  Python  •  Unity  •  Unreal Engine  •  JavaScript</text>
+  <circle r="4" fill="#ff8fbd" opacity="0.85">
+    <animateMotion path="M180 58 H1020" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+    <text x="600" y="112" text-anchor="middle" fill="#f8f5fb" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="2">HEEJAE'S GITHUB</text>
+  </g>
+
+  <rect x="600" y="132" width="0" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="x" from="600" to="391" dur="1.4s" begin="0.35s" fill="freeze"/>
+    <animate attributeName="width" from="0" to="418" dur="1.4s" begin="0.35s" fill="freeze"/>
+  </rect>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.8s" fill="freeze"/>
+    <text x="600" y="176" text-anchor="middle" fill="#ff9bc6" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">코드로 또 하나의 세계를 만드려는 창작자</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="1.2s" fill="freeze"/>
+    <text x="600" y="220" text-anchor="middle" fill="#aab0c0" font-family="Consolas, monospace" font-size="17" letter-spacing="1">C++  •  Python  •  Unity  •  Unreal Engine  •  JavaScript</text>
+  </g>
+
+  <g fill="#ffd0e2">
+    <circle cx="1015" cy="70" r="3">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="104" r="2.5">
+      <animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="962" cy="126" r="2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>
