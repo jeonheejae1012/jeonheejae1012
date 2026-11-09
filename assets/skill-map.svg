@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">HEEJAE Skill Map</title>
+  <desc id="desc">HEEJAE를 중심으로 Unity, Unreal Engine, C++, Python, JavaScript가 연결된 움직이는 기술 지도</desc>
+
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="0.5" stop-color="#0a1728"/>
+      <stop offset="1" stop-color="#11112c"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#53d8fb"/>
+      <stop offset="0.55" stop-color="#16c7d9"/>
+      <stop offset="1" stop-color="#8b7cff"/>
+    </linearGradient>
+    <pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#53d8fb" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="clip">
+      <rect width="1200" height="390" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="390" fill="url(#panel)"/>
+    <rect width="1200" height="390" fill="url(#microGrid)"/>
+
+    <g fill="none" stroke-width="2">
+      <path d="M600 195L245 95" stroke="#53d8fb" stroke-opacity="0.28" stroke-dasharray="8 12">
+        <animate attributeName="stroke-dashoffset" values="40;0" dur="2.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M600 195L230 292" stroke="#16c7d9" stroke-opacity="0.28" stroke-dasharray="8 12">
+        <animate attributeName="stroke-dashoffset" values="0;40" dur="3.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M600 195L600 68" stroke="#f2c14e" stroke-opacity="0.32" stroke-dasharray="8 12">
+        <animate attributeName="stroke-dashoffset" values="40;0" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M600 195L960 95" stroke="#8b7cff" stroke-opacity="0.3" stroke-dasharray="8 12">
+        <animate attributeName="stroke-dashoffset" values="0;40" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <path d="M600 195L970 292" stroke="#53d8fb" stroke-opacity="0.28" stroke-dasharray="8 12">
+        <animate attributeName="stroke-dashoffset" values="40;0" dur="3.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g filter="url(#softGlow)">
+      <circle cx="600" cy="195" r="84" fill="#0b1830" stroke="url(#core)" stroke-width="3">
+        <animate attributeName="r" values="80;87;80" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="600" cy="195" r="69" fill="none" stroke="#53d8fb" stroke-opacity="0.32" stroke-dasharray="4 8">
+        <animateTransform attributeName="transform" type="rotate" from="0 600 195" to="360 600 195" dur="16s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="600" y="184" text-anchor="middle" fill="#f1f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="800" letter-spacing="3">HEEJAE</text>
+    <text x="600" y="213" text-anchor="middle" fill="#53d8fb" font-family="Consolas, monospace" font-size="13" letter-spacing="2">WORLD CORE</text>
+
+    <g transform="translate(245 95)">
+      <rect x="-95" y="-38" width="190" height="76" rx="16" fill="#0b1830" stroke="#53d8fb" stroke-opacity="0.65"/>
+      <circle cx="-68" cy="0" r="8" fill="#53d8fb" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="4" y="-3" text-anchor="middle" fill="#f1f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">UNITY</text>
+      <text x="4" y="19" text-anchor="middle" fill="#74839b" font-family="Consolas, monospace" font-size="11">ENGINE_01</text>
+    </g>
+
+    <g transform="translate(230 292)">
+      <rect x="-108" y="-38" width="216" height="76" rx="16" fill="#0b1830" stroke="#16c7d9" stroke-opacity="0.65"/>
+      <circle cx="-80" cy="0" r="8" fill="#16c7d9" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="8" y="-3" text-anchor="middle" fill="#f1f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">UNREAL ENGINE</text>
+      <text x="8" y="19" text-anchor="middle" fill="#74839b" font-family="Consolas, monospace" font-size="11">ENGINE_02</text>
+    </g>
+
+    <g transform="translate(600 68)">
+      <rect x="-76" y="-32" width="152" height="64" rx="14" fill="#0b1830" stroke="#f2c14e" stroke-opacity="0.65"/>
+      <circle cx="-50" cy="0" r="7" fill="#f2c14e" filter="url(#softGlow)">
+        <animate attributeName="r" values="5;8;5" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="10" y="6" text-anchor="middle" fill="#f1f7ff" font-family="Consolas, monospace" font-size="20" font-weight="700">C++</text>
+    </g>
+
+    <g transform="translate(960 95)">
+      <rect x="-90" y="-38" width="180" height="76" rx="16" fill="#0b1830" stroke="#8b7cff" stroke-opacity="0.7"/>
+      <circle cx="-63" cy="0" r="8" fill="#8b7cff" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="8" y="-3" text-anchor="middle" fill="#f1f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">PYTHON</text>
+      <text x="8" y="19" text-anchor="middle" fill="#74839b" font-family="Consolas, monospace" font-size="11">TOOLS_01</text>
+    </g>
+
+    <g transform="translate(970 292)">
+      <rect x="-102" y="-38" width="204" height="76" rx="16" fill="#0b1830" stroke="#53d8fb" stroke-opacity="0.65"/>
+      <circle cx="-74" cy="0" r="8" fill="#53d8fb" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="10" y="-3" text-anchor="middle" fill="#f1f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">JAVASCRIPT</text>
+      <text x="10" y="19" text-anchor="middle" fill="#74839b" font-family="Consolas, monospace" font-size="11">TOOLS_02</text>
+    </g>
+
+    <circle r="5" fill="#f2c14e" filter="url(#softGlow)">
+      <animateMotion path="M245 95L600 195L960 95L600 195L970 292L600 195L230 292L600 195L245 95" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="34" y="360" fill="#53627a" font-family="Consolas, monospace" font-size="11" letter-spacing="2">SKILL_NETWORK // LIVE</text>
+    <text x="1166" y="360" text-anchor="end" fill="#53627a" font-family="Consolas, monospace" font-size="11" letter-spacing="2">5 NODES CONNECTED</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="388" rx="23" fill="none" stroke="#53d8fb" stroke-opacity="0.14" stroke-width="2"/>
+</svg>
