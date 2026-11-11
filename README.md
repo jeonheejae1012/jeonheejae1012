@@ -83,7 +83,37 @@
 ![Python](https://img.shields.io/badge/Python-F2C14E?style=for-the-badge&logo=python&logoColor=08111f)
 ![JavaScript](https://img.shields.io/badge/JavaScript-53D8FB?style=for-the-badge&logo=javascript&logoColor=08111f)
 
-## `04 // JOURNEY`
+## `04 // PERSONAL PROJECTS`
+
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>🗺️ L_O_G</h3>
+      <p><b>둘만의 장소와 순간을 하나의 세계에 기록하는 커플 아카이브</b></p>
+      <p>
+        함께한 장소와 사진, 날짜와 이야기를 지도 위에 남기고<br/>
+        두 사람이 같은 기억을 다시 탐험할 수 있도록 만드는 웹 애플리케이션입니다.
+      </p>
+      <p>
+        <code>COUPLE CONNECTION</code>
+        <code>MEMORY MAP</code>
+        <code>PHOTO ARCHIVE</code>
+        <code>REAL-TIME CHAT</code>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-08111F?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/TypeScript-1689E8?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/React-16C7D9?style=flat-square&logo=react&logoColor=08111F" alt="React" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-53D8FB?style=flat-square&logo=tailwindcss&logoColor=08111F" alt="Tailwind CSS" />
+        <img src="https://img.shields.io/badge/Drizzle-8B7CFF?style=flat-square&logo=drizzle&logoColor=white" alt="Drizzle ORM" />
+        <img src="https://img.shields.io/badge/Cloudflare-F2C14E?style=flat-square&logo=cloudflare&logoColor=08111F" alt="Cloudflare" />
+      </p>
+      <sub>👤 PERSONAL PROJECT &nbsp;·&nbsp; 🚧 IN DEVELOPMENT &nbsp;·&nbsp; 🔒 SOURCE PRIVATE</sub>
+    </td>
+  </tr>
+</table>
+
+## `05 // JOURNEY`
 
 <!-- 경력을 추가할 때 이 주석 아래에 내용을 작성하세요. -->
 
@@ -91,7 +121,7 @@
 
 <br />
 
-## `05 // ACHIEVEMENTS`
+## `06 // ACHIEVEMENTS`
 
 <!-- 자격증이나 수상 경력을 추가할 때 이 주석 아래에 내용을 작성하세요. -->
 
@@ -99,7 +129,7 @@
 
 <br />
 
-## `06 // SIGNAL`
+## `07 // SIGNAL`
 
 <div align="center">
 
