@@ -105,6 +105,36 @@
 
 <br/>
 
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <h2>⚔️ SENTINEL_OF_ECHOES</h2>
+      <p><b>얼어붙은 세계에 남은 잔향을 따라 나아가는 2D 픽셀 액션 게임</b></p>
+      <p>
+        얼어붙은 시계태엽 성채를 무대로 이동과 대시, 연속 공격을 활용해 전투하고<br/>
+        강력한 보스의 패턴과 약점을 공략하며 이야기의 기억을 되찾아가는 게임입니다.
+      </p>
+      <hr/>
+      <p><b>핵심 요소</b></p>
+      <p>
+        <code>PIXEL ACTION</code>
+        <code>COMBO COMBAT</code>
+        <code>BOSS BATTLE</code>
+        <code>STORY PROLOGUE</code>
+      </p>
+      <p><b>Tech</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/Unity_6-16C7D9?style=flat-square&logo=unity&logoColor=08111F" alt="Unity 6" />
+        <img src="https://img.shields.io/badge/C%23-7C5CFF?style=flat-square&logo=csharp&logoColor=white" alt="C Sharp" />
+        <img src="https://img.shields.io/badge/URP_2D-1689E8?style=flat-square&logo=unity&logoColor=white" alt="Unity URP 2D" />
+      </p>
+      <sub>👤 PERSONAL PROJECT &nbsp;·&nbsp; 🚧 IN DEVELOPMENT &nbsp;·&nbsp; 🔒 SOURCE PRIVATE</sub>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
 ## 💼 Experience
 
 | 상태 | 내용 |
